@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  color: #464343;
+  font-family: 'Roboto', sans-serif;
+}
+
+.img-responsive{
+    width:100%;
+    height:100vh;
+    
+  }
+  
+
+  .btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+    color: black;
+    background-color: transparent;
+ }
+
+ .accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+
+.instagram{
+  width:50%;
+
+}
+
+
+.flex-root2{
+ 
+   text-align: left;
+    
+
+}
+.flex-child{
+  margin-left:2%;
+}
+.flex-root{
+  display: flex;
+  justify-content: center;
+  margin-left:30%;
+  margin-top:10%;
+  margin-bottom:10%;
+}
+
+
+
+/* /*  
+.carousel-item {
+  height: 350px;
+} 
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: black;
+}
+.carousel-indicators {
+  bottom: -50px;
+}
+  */
+
+
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: black;
+  }
+  
+
+  .blog{
+    height: 350px;
+  }
+  .testimonial{
+    height: 350px;
+     
+    
+  }
+  .testimonial-root{
+    display: flex;
+    padding: 4%;
+    justify-content: space-between;
+    
+
+  }
+  .testimonial-img{
+  
+     
+    width:100%;
+    height: 100%;
+
+  }
+  .testimonial-child1{
+    padding: 1%;
+    width:100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    
+
+  }
+
+  .testimonial-child2{
+    
+    padding:5%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:90%;
+
+  }
+
+  .testimonial-indicators{
+    bottom: -50px;
+  }
+
+  .blog-indicators{
+    bottom: -50px;
+  }
+
+
+  
+    .accolades-flex{
+      display: flex;
+      justify-content: space-between;
+
+      }
+  
+      .accolades-img{
+        height: 100px;
+        }
+  
+       
+        
+        .btn-faq{
+          border-top-color: white ;
+        }
+
+        .faq{
+          margin:5%;
+        }
+
+.footer-col{
+  text-align: left;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+
+}
+a:hover{
+  color:black;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.container{
+  background-color: rgb(205, 203, 205);
+}
+
+.footer-flex{
+  display: flex;
+  justify-content: center;
+  grid-gap: 10px;
+  
+
+}
